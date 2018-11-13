@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> signup </title>
+	<style type="text/css">
+		p {
+		text-decoration-color: #ff0000;
+		align-self: right;
+		font-size: 30px;
+
+		}
+
+	body {
+		background-color: #000;
+		background-repeat: no-repeat;
+		background-attachment: scroll;
+		background-size: cover;  
+		background-image: url('../images/music2.jpg');
+	}
+
+	.signup{
+		min-height: 440px;
+		width: 500px;
+		background-color: #ffffff;
+		float: center;
+		margin: 5px;
+		border-radius: 20px 20px 20px 20px;
+		padding: 10px;
+		background-image: url('../images/a.jpg');
+		background-size: cover;
+     }
+
+     .title{
+  text-align: center;
+  font-size: 80px;
+  color: #000000;
+}
+
+.button{
+  font-size: 20px;
+}
+	</style>
+</head>
+<body>
+	<div class="title">Thankyou for choosing us</div>
+	<div class="signup">
+		<form method="post" action="/signup">
+			<p>
+			  Full-Name:<input type="text" name="fullname"><br><br>
+			  Username:<input type="text" name="username" id="nameInput"> <br/><br>
+			  Date of Birth:<input type="Date" name="dob"><br><br>
+			  Password:<input type="password" name="password" id="passwordInput"> <br/><br>
+			  Confirm-Password:<input type="password" name="confirmPassword" id="confirmPassword"><br><br>
+			  <div class="button">
+			  <button type="submit"><a href="/home">SignUp</a></button>
+			  </div> </br><br>
+		  </p>
+	  </form>
+  </div>
+</body>
+</html>

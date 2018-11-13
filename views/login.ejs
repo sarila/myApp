@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="/public/stylesheets/style.css">
+</head>
+<style>
+p {
+		text-decoration-color: #ff0000;
+		align-self: right;
+		font-size: 30px;
+
+}
+
+body {
+	background-color: #000;
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;  
+}
+
+.login{
+	width: 500px;
+	background-color: pink;
+	float: right;
+	margin: 5px;
+	border-radius: 20px 20px 20px 20px;
+	padding: 10px;
+	background-image: url('../images/i.jpg');
+	background-size: cover;
+}
+
+
+ .title{
+  text-align: center;
+  font-size: 80px;
+  color: #000000;
+}
+
+.button{
+  font-size: 20px;
+}
+</style>
+<body>
+	<div class="title">Reconnect from where you left.</div>
+	<div class="login">
+		<form method="post" action="/login">
+			<p>Username: <input type="text" name="username" id="nameInput"><br/>
+			Password: <input type="password" name="password" id="passwordInput"><br/></p>
+			<div class="button">
+				<button type="submit">Login</button>
+				<button type="submit"><a href="/signup">don't have an account</a></button>
+			</div>
+		</form>
+
+	</div>
+</body>
+</html>

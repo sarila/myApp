@@ -1,0 +1,31 @@
+/*body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+*/p {
+		text-decoration-color: #ff0000;
+		align-self: right;
+
+}
+
+body {
+	background-color: #000;
+	background-image: url('../images/background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;  
+}
+
+.login{
+	min-height: 440px;
+	width: 500px;
+	background-color: #ffffff;
+	float: right;
+	margin: 5px;
+	border-radius: 0px 20px 20px 20px;
+}
